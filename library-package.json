@@ -1,31 +1,6 @@
 {
-	"name": "service-charge-library",
-  "version": "0.0.20",
-  "description": "service-charge-library",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.js",
   "typings": "./dist/index.d.ts",
-  "license": "Copyright",
-  "keywords": [
-    "angular",
-    "angular4",
-    "aot",
-    "aot-compatible",
-    "aot-compilation",
-    "library",
-    "ng",
-    "typescript"
-  ],
-  "author": {
-    "name": "Oleksii Trekhleb",
-    "url": "https://www.linkedin.com/in/trekhleb/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/trekhleb/angular-library-seed.git"
-  },
-  "bugs": {
-    "url": "https://github.com/trekhleb/angular-library-seed/issues"
-  },
-  "homepage": "https://github.com/trekhleb/angular-library-seed#readme"
+  "license": "Copyright"
 }
