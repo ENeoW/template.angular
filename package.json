@@ -1,11 +1,11 @@
 {
-	"name": "service-charge-library",
-	"version": "0.0.20",
-	"description": "service-charge-library",
 	"main": "./dist/index.umd.js",
 	"module": "./dist/index.js",
 	"typings": "./dist/index.d.ts",
 	"license": "Copyright",
+	"name": "service-charge-library",
+	"version": "0.0.20",
+	"description": "service-charge-library",
 	"keywords": [
 		"angular",
 		"angular4",
@@ -21,15 +21,14 @@
 		"url": "https://www.linkedin.com/in/trekhleb/"
 	},
 	"repository": {
-		"type": "git",
-		"url": "https://github.com/trekhleb/angular-library-seed.git"
+		"url": "https://github.com/trekhleb/angular-library-seed.git",
+		"type": "git"
 	},
+	"homepage": "https://github.com/trekhleb/angular-library-seed#readme",
 	"bugs": {
 		"url": "https://github.com/trekhleb/angular-library-seed/issues"
 	},
-	"homepage": "https://github.com/trekhleb/angular-library-seed#readme",
-	"dependencies": {
-	},
+	"dependencies": {},
 	"peerDependencies": {
 		"@angular/common": "^5.0.0",
 		"@angular/core": "^5.0.0"

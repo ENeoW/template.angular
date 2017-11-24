@@ -1,11 +1,11 @@
 {
-	"name": "service-charge-library",
-  "version": "0.0.20",
-  "description": "service-charge-library",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "license": "Copyright",
+  "name": "service-charge-library",
+  "version": "0.0.20",
+  "description": "service-charge-library",
   "keywords": [
     "angular",
     "angular4",
@@ -17,15 +17,10 @@
     "typescript"
   ],
   "author": {
-    "name": "Oleksii Trekhleb",
-    "url": "https://www.linkedin.com/in/trekhleb/"
+    "name": "Jesus Avila Rivera"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/trekhleb/angular-library-seed.git"
+    "url": "http://code.pricetravel.com.mx/projects/SC/repos/template.angularlibrary/browse"
   },
-  "bugs": {
-    "url": "https://github.com/trekhleb/angular-library-seed/issues"
-  },
-  "homepage": "https://github.com/trekhleb/angular-library-seed#readme"
+  "homepage": "http://si.pricetravel.com.mx/display/PAF/Template+para+generar+librerias+de+angular"
 }
