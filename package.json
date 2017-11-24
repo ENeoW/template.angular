@@ -29,12 +29,10 @@
 	},
 	"homepage": "https://github.com/trekhleb/angular-library-seed#readme",
 	"dependencies": {
-		"message-service-library": "file:c:/localnugets/message-service-library-0.0.16.tgz"
 	},
 	"peerDependencies": {
 		"@angular/common": "^5.0.0",
-		"@angular/core": "^5.0.0",
-		"message-service-library": "file:c:/localnugets/message-service-library-0.0.16.tgz"
+		"@angular/core": "^5.0.0"
 	},
 	"scripts": {
 		"build": "npm run merge && npm run build:esm && npm run build:umd",
