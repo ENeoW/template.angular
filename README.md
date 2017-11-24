@@ -67,15 +67,13 @@ Instalar Yarn siguiendo las [instrucciones](https://yarnpkg.com/en/docs/install)
 ## Instalación
 - `fork` el repositorio.
 - `clone` localmente.
+- Modifica `library-package.json` agregando los campos `name`, `version`, `keywords`, `description`, `author`, `repository`, `homepage`. Para mas información puedes consultar la documentacion de npm  [package.json handling](https://docs.npmjs.com/files/package.json).
 - `gulp merge-json` para integrar el archivo package.json.
 - `yarn install` para instalar las dependencias requeridas.
 
-## Replace `TickTock` library with your own library
-This step may be optional at first since you might just want to play with existing library example.
 
-Once you're ready to develop your own library you should do the following.
-- Check and re-configure `package.json` fields like `name`, `version`, `keywords`, `description` etc. You may read about specifics of npm's [package.json handling](https://docs.npmjs.com/files/package.json) to do that.
-- Replace the content of `src` folder with your library sources. Your library must have `index.ts` file as an entry point for further building.
+## [Libreria de ejemplo](http://code.pricetravel.com.mx/projects/SC/repos/template.angularlibrary/browse?at=refs%2Fheads%2Ffeature%2FEjemplo)
+En este repositorio encontraras un proyecto de ejemplo, con la estructura para poder generar un modulo con sus respectivos componentes y servicios.
 
 ## Build the library
 - `yarn build` for building the library once (both ESM and AOT versions).
@@ -98,7 +96,6 @@ You may also build UMD bundle and ESM files separately:
 
 #### Generate documentation
 - `yarn docs` for generating documentation locally.
-- `yarn gh-pages` for generating documentation and uploading it to GitHub Pages. [Documentation example](https://trekhleb.github.io/angular-library-seed/).
 
 #### Explore the bundle
 - `yarn explorer` to find out where all your code in bundle is coming from.
@@ -107,11 +104,6 @@ You may also build UMD bundle and ESM files separately:
 - `npm version patch` to increase library version. [More on bumping](https://docs.npmjs.com/cli/version).
 
 `preversion` script in this case will automatically run project testing and linting in prior in order to check that the library is ready for publishing.
-
-#### Publish library to NPM
-- `npm publish` to publish your library sources on [npmjs.com](https://www.npmjs.com/). Once the library is published it will be [available for usage](https://www.npmjs.com/package/angular-library-seed) in npm packages.
-
-`prepublishOnly` script in this case will automatically run project testing and linting in prior in order to check that the library is ready for publishing.
 
 #### Cleaning
 - `yarn clean:tmp` command will clean up all temporary files like `docs`, `dist`, `coverage` etc.
