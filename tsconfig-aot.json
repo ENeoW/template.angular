@@ -9,6 +9,10 @@
     "noImplicitAny": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "pretty": true,
