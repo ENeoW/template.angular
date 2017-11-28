@@ -68,8 +68,9 @@ Instalar Yarn siguiendo las [instrucciones](https://yarnpkg.com/en/docs/install)
 - `fork` el repositorio.
 - `clone` localmente.
 - Modifica `library-package.json` agregando los campos `name`, `version`, `keywords`, `description`, `author`, `repository`, `homepage`. Para mas información puedes consultar la documentacion de npm  [package.json handling](https://docs.npmjs.com/files/package.json).
+- `yarn install` para instalar las dependencias requeridas para realizar el `merge-json`.
 - `gulp merge-json` para integrar el archivo package.json.
-- `yarn install` para instalar las dependencias requeridas.
+- `yarn install` volver a correr comando para actualizar las dependencias requeridas después de realizar el merge de package.json.
 
 
 ## [Libreria de ejemplo](http://code.pricetravel.com.mx/projects/SC/repos/template.angularlibrary/browse?at=refs%2Fheads%2Ffeature%2FEjemplo)
