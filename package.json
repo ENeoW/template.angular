@@ -4,5 +4,11 @@
 	"peerDependencies": {
 		"@angular/common": "^5.0.0",
 		"@angular/core": "^5.0.0"
+	},
+	"devDependencies": {
+		"gulp": "^3.9.1",
+		"gulp-inline-ng2-template": "^4.0.0",
+		"gulp-merge-json": "^1.2.0",
+		"node-sass": "^4.7.2"
 	}
 }
