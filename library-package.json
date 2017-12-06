@@ -3,9 +3,9 @@
   "module": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "license": "Copyright",
-  "name": "service-charge-library",
+  "name": "name-library",
   "version": "0.0.20",
-  "description": "service-charge-library",
+  "description": "name-library",
   "keywords": [
     "angular",
     "angular4",
