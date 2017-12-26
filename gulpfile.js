@@ -20,7 +20,7 @@ const INLINE_TEMPLATES = {
 };
 
 gulp.task('merge-json', ()=>{
-  gulp.src(['./library-package.json','./package.json', './template-package.json'])
+  gulp.src(['./package.json', './library-package.json', './template-package.json'])
   .pipe(merge({fileName: 'package.json'}))
   .pipe(gulp.dest('./'));
 });
